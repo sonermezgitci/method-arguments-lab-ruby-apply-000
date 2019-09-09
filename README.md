@@ -36,16 +36,24 @@ NoMethodError:
 ```
 
 Looks like our test is expecting to test a method called `#introduction`. Let's define that method in `lib/introduction.rb`.
+#lib/introduction.rb
 
+def introduction
+end
 ```ruby
 # lib/introduction.rb
 
 def introduction
 end
 ```
+#lib/introduction,rb
+def introduction 
+end
 
 Now we'll run our test suite again. You should see the following error:
-
+#lib/introduction.rb
+def introduction
+end
 ```bash
 Failures:
 
@@ -125,3 +133,4 @@ learning to program in #{language}."
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/method-arguments-lab' title='Method Arguments Lab'>Method Arguments Lab</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/method-arguments-lab'>Methods and Arguments Lab</a> on Learn.co and start learning to code for free.</p>
+
